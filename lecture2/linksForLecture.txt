@@ -1,0 +1,9 @@
+html სემანტიკური ელემენტები https://www.w3schools.com/html/html5_semantic_elements.asp
+html გლობალური ატრიბუტები https://www.w3schools.com/tags/ref_standardattributes.asp
+reset css
+html styles- css https://www.w3schools.com/html/html_css.asp
+Get started with Bootstrap https://getbootstrap.com/docs/5.3/getting-started/introduction/
+Get started with Tailwind CSS https://tailwindcss.com/docs/installation/play-cdn
+
+https://news.ge/
+https://www.bbc.com/news

@@ -1,0 +1,60 @@
+The CSS Box Model   https://www.w3schools.com/css/css_boxmodel.asp
+CSS Box Sizing      https://www.w3schools.com/css/css3_box-sizing.asp
+borders             https://www.w3schools.com/css/css_border.asp    
+overflow            https://www.w3schools.com/css/css_overflow.asp    
+margin/padding
+
+
+//////////////////////////////////
+/////////////////////////////////
+////////////////////////////////
+
+
+colors      https://www.w3schools.com/css/css_colors.asp
+gradients   https://www.w3schools.com/css/css3_gradients.asp
+backgroud / bacground image https://www.w3schools.com/cssref/css3_pr_background.php    
+                            https://www.w3schools.com/css/css_background.asp
+                            https://www.w3schools.com/cssref/css3_pr_background-clip.php
+opacity     https://www.w3schools.com/css/css_image_transparency.asp
+
+
+css selectors   https://www.w3schools.com/css/css_selectors.asp
+                ex: https://www.w3schools.com/css/tryit.asp?filename=trycss_sel_element_gt
+
+
+
+position property: static/absolute/relative/fixed/sticky https://www.w3schools.com/css/css_positioning.asp
+z index https://www.w3schools.com/cssref/pr_pos_z-index.php
+
+!important https://www.w3schools.com/css/css_important.asp
+
+
+
+
+
+
+
+
+CSS Flexbox         https://www.w3schools.com/css/css3_flexbox.asp
+perfect center      https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_perfect_center
+
+
+//////////////////////////////////
+/////////////////////////////////
+////////////////////////////////
+
+
+box-shadow         https://www.w3schools.com/css/css3_shadows_box.asp
+text-shadow        https://www.w3schools.com/css/css3_shadows.asp
+
+transform property;             https://www.w3schools.com/cssref/css3_pr_transform.php
+CSS transition property;        https://www.w3schools.com/css/css3_transitions.asp
+
+
+Autoprefixer                https://autoprefixer.github.io/  
+HTML audio & video tags     https://www.w3schools.com/tags/tag_audio.asp   https://www.w3schools.com/tags/tag_video.asp
+Font Awesome  https://cdnjs.com/   https://fontawesome.com/icons
+
+
+homework
+https://www.w3schools.com/cssref/tryit.php?filename=trycss3_image_gallery

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-model{
+    background-color: red;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+
+    border: 5px solid blue; 
+    /* width: 500px;
+    height: 200px;
+    /* box-sizing: content-box; 
+    border-style: dashed solid dotted double;
+    border-width: 5px thick 9px medium; 
+    border-color: red blue;
+    border-top-width: 50px; */
+    border-radius: 20px 5px 40px 1px;
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+
+}
+.box-2 {
+
+    background-color: rgb(255, 0, 0, 1);
+    background: ;
+    padding-left: 20px;
+    padding: 2px 4px;
+}
+
+.gradient {
+   background-image: conic-gradient(red, blue, green) ;
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.background {
+    width: 800px;
+    height: 500px;
+    background-color: rgba(10, 255, 100, 0.5);
+    /* background-image: url(../circle.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: blueviolet;
+    background-position: center;
+    background-attachment: fixed;
+    border: 20px dotted #000; */
+    /* opacity: 0.5; */
+}
+
+
+.background p {
+    color: blueviolet;
+}
+
+a{
+    font-size: 50px;
+    color: aqua;
+}
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: blueviolet;
+}
+a:link{
+    color: brown;
+}
+
+a:active{
+    color: green;
+}
+
+.display{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+}
+.display p{
+    display: none;
+}
+
+.display:hover p{
+    display: block;
+}
+
+h1::before {
+    content: url("../Screenshot\ 2025-08-09\ 125111.png");
+}
+
+a[target]{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+.parent {
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(225, 235, 46);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.flex{
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.flex div{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.flex2{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: blue;
+    /* width: 200px; */
+    /* height: 50px; */
+}

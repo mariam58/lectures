@@ -1,0 +1,9 @@
+css fonts https://www.w3schools.com/css/css_font.asp
+ქართული ფონტები https://fonts.ge/ka/font/145/BPG-Nino-Mtavruli-Bold
+google fonts https://www.w3schools.com/css/css_font_google.asp ; https://fonts.google.com/selection/embed
+
+
+HTML Block and Inline Elements https://www.w3schools.com/html/html_blocks.asp
+html list https://www.w3schools.com/html/html_lists.asp
+html table https://www.w3schools.com/html/html_tables.asp
+html forms https://www.w3schools.com/html/html_forms.asp

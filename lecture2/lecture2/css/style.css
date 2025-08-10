@@ -1,0 +1,15 @@
+aside {
+    background-color: black;
+    padding: 200px;
+}
+
+.class__for__article__tag {
+    background-color: brown;
+}
+
+#differet__article {
+    background-color: blueviolet;
+}
+.btn-primary{
+background-color: red!important;
+}
