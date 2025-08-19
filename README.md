@@ -1,23 +1,28 @@
-# heading
+# Lectures
 
-## heading
+## Repository Description
 
-### heading
+This repository contains materials for a front-end development lecture series as part of a mentorship program.
 
-**text**
+## Getting Started
 
-*text*
-~~text~~
+### Prerequisites
+Make sure you have the following installed:
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-- item
-  - item
-  - item
- 
+### Installation
 
-[text](https://github.com/mariam58/lectures/new/master?filename=README.md)
+1. Clone the repository:
 
-![imgalt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1bSidIrrVdFacsOBVDNS3zoRfi8745goZC1EkvDYHXcsuRr8eJDO1gEBrppvwtZK84Mc&usqp=CAU)
+  ```
+  git clone git@github.com:mariam58/lectures.git
+  ```
 
-```html
-<p>text</p>
-```
+2. Open the project in Visual Studio Code.
+
+3. Start with a browser (e.g., using the Live Server extension):
+
+  ```
+  http://127.0.0.1:5500/
+  ```
