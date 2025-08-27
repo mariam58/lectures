@@ -95,3 +95,35 @@ button:hover {
   font-size: 30px;
   text-align: center;
 }
+
+
+.f-container {
+  display: flex;
+  background-color: red;
+  height: 300px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.f-container div{
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  padding: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .f-container {
+    flex-direction: column;
+  }
+}
+
+.img-box{
+  width: 500px;
+  background-color: red;
+}
+.img-box img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+

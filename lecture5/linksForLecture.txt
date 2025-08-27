@@ -1,0 +1,73 @@
+.gitignore
+readme.md (markdown)
+
+text-shadow        https://www.w3schools.com/css/css3_shadows.asp
+box-shadow         https://www.w3schools.com/css/css3_shadows_box.asp
+
+transform property;             https://www.w3schools.com/cssref/css3_pr_transform.php
+CSS transition property;        https://www.w3schools.com/css/css3_transitions.asp
+
+Font Awesome  https://cdnjs.com/   https://fontawesome.com/icons
+
+keyframe animation  https://www.w3schools.com/cssref/atrule_keyframes.php
+                    https://www.w3schools.com/cssref/css3_pr_animation.php
+
+
+CSS Grid Layout Module      https://www.w3schools.com/css/css_grid.asp
+
+////////////////
+///////////////
+//////////////
+
+
+
+HTML audio & video tags     https://www.w3schools.com/tags/tag_audio.asp   https://www.w3schools.com/tags/tag_video.asp
+
+responsive images   https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_image
+                    https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_picture
+
+responsive text     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_text  
+                    https://www.w3schools.com/css/css_font_size.asp
+                    https://www.w3schools.com/cssref/func_clamp.php
+                    
+media queries       https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+                    https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_breakpoints2
+                    https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints
+
+
+
+Code validation for HTML/CSS        https://validator.w3.org/#validate_by_input  ////   https://jigsaw.w3.org/css-validator/#validate_by_input
+
+
+SCSS
+
+1.install node and npm
+    https://nodejs.org/en/download/
+    node -v
+    npm -v
+
+2.install SCSS
+    npm install -g sass //გლობალურად
+    npm install sass --save-dev //მხოლოდ პროექტში
+    sass --version
+    sass scss/style.scss css/style.css //ერთხელ გაბილდვა
+    sass --watch style.scss:style.css //ლაივ რეჟიმში თან წერ თან იბილდება
+
+ალტერნატიუული გზა sass ის გარემოს მოსაწყობად: Live Sass Compiler ექსთენშენებიდან
+
+
+
+
+Autoprefixer                https://autoprefixer.github.io/ 
+
+npm init -y
+npm install postcss postcss-cli autoprefixer
+
+postcss.config.js:
+    module.exports = {
+    plugins: [
+        require('autoprefixer')
+    ]
+    }
+
+npx postcss style.css -o style.prefixed.css

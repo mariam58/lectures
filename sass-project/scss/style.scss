@@ -1,0 +1,9 @@
+@use './variables';
+// @import './variables';
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: variables.$myRed;
+    padding: variables.$myPadding;
+}
