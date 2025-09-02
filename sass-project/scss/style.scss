@@ -1,9 +1,15 @@
 @use './variables';
 // @import './variables';
-
+@use './mixins';
+@use './header';
 header {
     width: 100%;
     height: 100px;
     background-color: variables.$myRed;
     padding: variables.$myPadding;
+    @include mixins.flex-center;
+}
+
+footer {
+    @include mixins.flex-center;
 }
