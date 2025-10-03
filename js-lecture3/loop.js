@@ -1,5 +1,5 @@
 const numbers = [1,4,3,4,7,89,56];
-
+const doubledArr = []
 // console.log(numbers[3])
 // for (let i = 0; i < numbers.length; i++) {
 //     console.log(numbers[i]);
@@ -11,9 +11,9 @@ const numbers = [1,4,3,4,7,89,56];
 // }
 
 // const name = "mariami"
-// for (let num of numbers){
-//     console.log(num)
-// }
+for (let num of numbers){
+    doubledArr.push(num*2)
+}
 
 // const person = {
 //     name: "mariami",
@@ -67,11 +67,11 @@ const numbers = [1,4,3,4,7,89,56];
 //     console.log(i)
 // }
 
-let i= 0;
-while(i<5){
-    i++;
-    if(i===3){
-        continue;
-    }
-    console.log(i)
-}
+// let i= 0;
+// while(i<5){
+//     i++;
+//     if(i===3){
+//         continue;
+//     }
+//     console.log(i)
+// }
