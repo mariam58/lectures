@@ -44,14 +44,59 @@
 // let joinedArr = fruits.join("-")
 // console.log(joinedArr)
 
-let numbersArr = [1, 2, 3];
+// let numbersArr = [1, 2, 3];
 
-let doublednumbersArr = numbersArr.map(num => num * 2)
+// let doublednumbersArr = numbersArr.map(num => num * 2)
 
-console.log(doublednumbersArr)
-console.log(numbersArr)
+// console.log(doublednumbersArr)
+// console.log(numbersArr)
 
-let even = numbersArr.filter(num => num%2 ===0)
-console.log(even)
-let firstbig = numbersArr.find(num=>num>2)
-console.log(firstbig)
+// let even = numbersArr.filter(num => num%2 ===0)
+// console.log(even)
+// let firstbig = numbersArr.find(num=>num>2)
+// console.log(firstbig)
+
+//spread operator
+// let arr1 = [1,2,3]
+// let arr2 = [...arr1, 4,5,6]
+// console.log(arr2)
+
+
+// let [a,b,c] = arr1
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+
+
+
+
+
+
+// console.log(obj2)
+
+// let [first, ...rest] = arr2
+// console.log(first)
+// console.log(rest)
+
+
+
+const obj1 = { 
+    a: "abc", 
+    b: "cba" 
+};
+const { a, b } = obj1;
+
+console.log(a); // 1
+console.log(b); // 2
+
+
+const user = {
+  name: "Mariam",
+  age: 29
+};
+
+const { name, age } = user;
+
+console.log(name); // "Mariam"
+console.log(age);  // 29

@@ -7,7 +7,7 @@ let person = {
 }
 // console.log(person)
 // console.log(person.name)
-// person.citizen= "georgian"
+person.citizen= "georgian"
 // person.age = 20;
 // delete person.name
 // console.log("age" in person)

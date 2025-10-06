@@ -1,17 +1,20 @@
 // console.log(sum(2,5))
-
-// function sum(){
-// //     console.log(arguments)
-//      let sum = 0;
-//      for (let i = 0; i < arguments.length; i++) {
-//           sum= sum+arguments[i]
+//rest parameter
+function sum(...numbers){
+//     console.log(arguments)
+     let sum = 0;
+     for (let i = 0; i < numbers.length; i++) {
+          sum= sum+numbers[i]
           
-//      }
-// //     return arguments[0] + arguments[1]
-// return sum;
-// }
-// // sum(1,2)
-// console.log(sum(2,3,1,1))
+     }
+//     return arguments[0] + arguments[1]
+return sum;
+}
+// sum(1,2)
+console.log(sum(2,3,1,1))
+
+
+
 
 // function printName(name){
 //      return "hello "+name+"!"
@@ -46,12 +49,15 @@
 // let userR = createUser("tamta")
 // console.log(userR)
 
+
+/// factory fuction
+
 // function createUser(name, age) {
 //      return {
 //           name: name,
 //           age: age,
 //           printName(){
-//                console.log("hello my name is " + name)
+//                console.log("hello my name is" + name, ". My age is " + age)
 //           }
 //      };
 // }
@@ -89,27 +95,77 @@
 // call-site
 
 
-const user2 = {
-     name: "mariam",
-     printName: ()=>{
-          console.log(this.name)
-     }
-}
-user2.printName()
+// const user2 = {
+//      name: "mariam",
+//      printName: ()=>{
+//           console.log(this.name)
+//      }
+// }
+// user2.printName()
 
 
-const user1 = {
-     name: "mariam",
-     arr: [1,23,4],
-     printName: function func(){
-          // const func2 = ()=>{
-          //      console.log(this.name)
+// const user1 = {
+//      name: "mariam",
+//      arr: [1,23,4],
+//      printName: function func(){
+//           // const func2 = ()=>{
+//           //      console.log(this.name)
                
-          // }
-          // func2()
-          const doublednumbersArr = this.arr.map(num => num * 2)
-          console.log(doublednumbersArr)
-     }
-}
+//           // }
+//           // func2()
+//           const doublednumbersArr = this.arr.map(num => num * 2)
+//           console.log(doublednumbersArr)
+//      }
+// }
 
-user1.printName()
+// user1.printName()
+
+// constructor function
+
+// var name = "tamta"
+// function CreateUser(name, age) {
+//           // console.log(this)
+//           this.name = name;
+//           console.log(name)
+// return {x: 4}
+//           // this.age = age;
+//           // this.printName = function(){
+//           //      console.log("hello my name is" + name, ". My age is " + age)
+//           // }
+// }
+
+// let user1 = new CreateUser("Mariami", 99)
+// console.log(user1)
+// //  console.log(name)
+
+
+
+// function CreateUser(name) {    
+//           this.name = name;
+//           this.printName = function(){
+//                console.log("hello my name is" + name,)
+//           }
+// }
+
+// let user1 = new CreateUser("Mariami")
+// let user2 = new CreateUser("NIno")
+// console.log(user1)
+// console.log(user2)
+
+// console.log(user1.printName === user2.printName)
+
+
+/////////////
+function CreateUserSecond(name) {    
+          this.name = name;
+}
+CreateUserSecond.prototype.printName =  function(){
+               console.log("hello my name is" + name,)
+          }
+let user1 = new CreateUserSecond("Mariami")
+let user2 = new CreateUserSecond("Mariami")
+console.log(user1.printName === user2.printName)
+
+let arr = [1,2,3]
+console.log(arr.push(5))
+console.log(arr.push === Array.prototype.push)
