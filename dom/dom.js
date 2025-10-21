@@ -22,12 +22,12 @@
 
 // console.log(el)
 
-// const newP = document.createElement("p")
-// newP.textContent ="created from js"
-// const container = document.getElementById("container")
-// container.appendChild(newP)
-// // console.log(getElByTagName)
-// const el2 = document.querySelectorAll("p")
+const newP = document.createElement("p")
+newP.textContent ="created from js"
+const container = document.getElementById("container")
+container.appendChild(newP)
+// console.log(getElByTagName)
+const el2 = document.querySelectorAll("p")
 
 // console.log(el2)
 
